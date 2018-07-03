@@ -1,6 +1,9 @@
 .testing {
   width: 71.42857%; }
 
+body {
+  background-color: #000; }
+
 .amp {
   background-image: url(../images/tim-tiedemann-149766-unsplash-1.jpg);
   background-position: 50% 20%;
@@ -144,7 +147,8 @@
   min-height: 300px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  background-color: #fff; }
 
 .services-section {
   background-color: #999999;
@@ -166,7 +170,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  background-color: #000;
+  color: #fff; }
 
 .contact-links {
   padding: 25px 0;
