@@ -1,0 +1,92 @@
+.testing {
+  width: percentage(5/7);
+}
+
+.amp{    background-image: url(../images/tim-tiedemann-149766-unsplash-1.jpg);
+    background-position: 50% 20%;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fb4f14;
+    -webkit-text-fill-color: transparent;
+    font-size: 800px;
+    font-weight: 900;
+    text-align: center;
+    -webkit-mask-image: url(../images/network.png);
+    -webkit-mask-mode: alpha;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: 100% 100%;
+    -webkit-mask-size: 90%;
+	position: absolute;
+	z-index: 1;
+	width: 75px;
+	height: 90px;
+    }
+
+ .amp-colour{
+    font-size: 800px;
+    font-weight: 900;
+    text-align: center;
+    -webkit-mask-image: url(../images/network.png);
+    -webkit-mask-mode: alpha;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: 100% 100%;
+    -webkit-mask-size: 90%;
+	position: absolute;
+	z-index: 1;
+	width: 88px;
+	height: 88px;
+    }
+
+   .atom-rating-img{max-width: 70%;margin: 15.5px 0px;max-height: 28px;}
+		.services-col{text-align: center;padding: 0 30px;background-color: #fff;height: 100%;display: flex;flex-direction: column;justify-content: center;align-items: center;padding: 25px;border-radius: 5px;transition: all .25s ease-in;cursor: pointer;}
+		.services-col:hover{box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);}
+        .services-col img{max-height: 130px;margin-bottom: 15px;}
+		.flex-center{display: flex;justify-content: center;align-items: center;}
+		.link-box {
+  height: 242px;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  max-width: 382px;
+  transition: all .15s ease-in-out;
+  position: relative;width: 60%; }
+
+.link-box:hover {
+  text-decoration: none;
+  background-size: 100%; }
+
+.link-box-one {background-image: url(../images/NAH-Logo-1.jpg); }
+.companies-logos {transition: all 400ms ease-in-out;transform: scale(1);width: 33.3%;
+text-align: center;margin-bottom: 20px;}
+.companies-logos:hover{-webkit-transition: all 200ms ease-in;
+-webkit-transform: scale(1.3);
+-ms-transition: all 200ms ease-in;
+-ms-transform: scale(1.3);
+-moz-transition: all 200ms ease-in;
+-moz-transform: scale(1.3);
+transition: all 200ms ease-in;
+transform: scale(1.3);z-index: 9;}
+.companies-logos img{max-width: 100%;object-fit: contain;max-height: 150px;}
+.iris-btn-black{background-color: #000;border-color: #000;}
+.iris-btn-red{background-color: #F93958;border-color: #F93958;}
+.iris-text-red{color: #F93958;}
+.iris-btn:hover{background-color: #74C8DB;border-color: #74C8DB;}
+  
+  .section-hero{min-height: 560px;background-color: #F93958;display: flex;justify-content: center;align-content: center;}
+  .section-intro{background-color: #999999 !important;min-height: 300px;display: flex;justify-content: center;align-items: center;}
+  .companies-section{min-height: 300px;display: flex;justify-content: center;align-items: center;}
+  .services-section{background-color: #999999;min-height: 300px;display: flex;justify-content: center;align-items: center;}
+  .services-ctn{padding-top: 55px;padding-bottom: 55px;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+
+  .contact-ctn{min-height: 300px;display: flex;justify-content: center;align-items: center;text-align: center;}
+  .contact-links{padding: 25px 0;position: relative;}
+
+
+ @media(max-width: 700px){
+ 	.amp{display: none;}
+ }
